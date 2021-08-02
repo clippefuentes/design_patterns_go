@@ -51,7 +51,6 @@ func (pib *PlayerInfoBuilder) Role(role string) *PlayerInfoBuilder {
 }
 
 // Team Builder Methods
-
 func (ptib *PlayerTeamInfoBuilder) Team(team string) *PlayerTeamInfoBuilder {
 	ptib.player.team = team
 	return ptib
