@@ -43,5 +43,4 @@ func main() {
 
   fmt.Println(john, john.Address)
   fmt.Println(jane, jane.Address)
-
 }
