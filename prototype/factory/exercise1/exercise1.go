@@ -56,4 +56,6 @@ func NewDarkNAClanHeroCopy(name string) *Hero {
 func main() {
 	hero1 := NewLightNorthClanHeroCopy("Hero 1")
 	fmt.Println(hero1, hero1.Clan)
+	hero2 := NewDarkNAClanHeroCopy("Darkie")
+	fmt.Println(hero2, hero2.Clan)
 }
