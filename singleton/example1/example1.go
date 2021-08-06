@@ -63,7 +63,7 @@ func readData(path string) (map[string]int, error) {
   for scanner.Scan() {
     k := scanner.Text()
     scanner.Scan()
-    v, _ := strconv.Atoi(scanner.Text())
+    v, _ := strconv.Atoi(w.Text())
     result[k] = v
   }
 
