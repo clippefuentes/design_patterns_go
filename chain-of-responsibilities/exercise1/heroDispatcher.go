@@ -104,7 +104,9 @@ func main () {
 
 	weaponShop := &weaponShop{}
 	weaponShop.setNext(potionShop)
-
+	weaponShop.setNext(potionShop)
+	weaponShop.setNext(potionShop)
+	weaponShop.setNext(potionShop)
 	foodShop := &foodShop{}
 
 	foodShop.setNext(weaponShop)
